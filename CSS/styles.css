@@ -1,0 +1,158 @@
+/* Estilos Globales */
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    background-image: url("../IMG/imgfondo.jpg"); /* Ruta de la imagen */
+    background-size: cover; /* Ajusta el tamaño para que cubra toda la pantalla */
+    background-position: center; /* Centra la imagen */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    background-attachment: fixed; /* Mantiene la imagen fija al hacer scroll */
+  }
+  
+  /* Header */
+  header {
+    background: linear-gradient(90deg, rgba(46, 139, 87, 0.8), rgba(102, 205, 170, 0.8));
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  /* Main */
+  main {
+    padding: 20px;
+  }
+  
+  /* Sección Productos (Flexbox) */
+  .productos-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .producto-card {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+    padding: 15px;
+  }
+  
+  .producto-card img {
+    width: 100%;
+    height: 250px;
+    border-radius: 8px 8px 0 0;
+  }
+  
+  /* Sección Reseñas (Grid) */
+  .reseñas-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+  }
+  
+  .reseña {
+    background: #fff;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Sección Multimedia */
+  .multimedia-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .multimedia-container img {
+    width: 100%;
+    max-width: 800px;
+    border-radius: 8px;
+  }
+  
+  /* Formulario de Contacto */
+  #formulario-contacto {
+    background: #fff;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 600px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  #formulario-contacto form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  #formulario-contacto label {
+    font-weight: bold;
+  }
+  
+  #formulario-contacto input,
+  #formulario-contacto textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  #formulario-contacto button {
+    background: #8B4513;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  #formulario-contacto button:hover {
+    background: #D2691E;
+  }
+  
+  /* Footer */
+  footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+  }
+
+  .social-network a {
+    color: white;
+    margin-right: 5px;
+    text-decoration: none;
+}
+  
+  /* Responsividad */
+  @media (max-width: 768px) {
+    nav ul {
+      flex-direction: column;
+    }
+  
+    .productos-container {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
