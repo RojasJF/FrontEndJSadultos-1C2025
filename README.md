@@ -1,6 +1,6 @@
-# Prendas de lana CHANNY
+# Talento Tech Proyecto -Tienda que comercializa prendas tejidas-
 
-Este proyecto es un sitio web para la venta de prendas de lana. Cuenta con una página principal y una de contacto, en la que se utiliza Formspree para manejar el envío de datos del formulario.
+Este proyecto es un simulacion de sitio web para la venta de prendas de lana. Cuenta con una página principal y una de contacto, en la que se utiliza Formspree para manejar el envío de datos del formulario.
 
 ## Características
 
@@ -12,3 +12,8 @@ Este proyecto es un sitio web para la venta de prendas de lana. Cuenta con una p
 - **Hosting:** El proyecto está preparado para subir a un hosting gratuito como GitHub Pages o Netlify.
 
 ## Estructura del Proyecto
+FrontEndJSadultos-1C2025/
+
+## Hosting
+Proyecto disponible en linea a traves de GitHub Pages
+https://rojasjf.github.io/FrontEndJSadultos-1C2025/
