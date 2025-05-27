@@ -13,6 +13,17 @@ Este proyecto es un simulacion de sitio web para la venta de prendas de lana. Cu
 
 ## Estructura del Proyecto
 FrontEndJSadultos-1C2025/
+│
+├── index.html
+├── contacto.html
+├── PAGES/
+│   ├── index.html
+|   └── contacto.html
+├── CSS/
+│   └── styles.css
+├── IMG/
+├── index.html
+└── README.md
 
 ## Hosting
 Proyecto disponible en linea a traves de GitHub Pages
