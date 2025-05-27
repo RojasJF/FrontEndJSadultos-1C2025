@@ -11,7 +11,10 @@ Este proyecto es un simulacion de sitio web para la venta de prendas de lana. Cu
 - **Diseño Responsivo:** Media Queries implementadas para adaptarse a diferentes tamaños de pantalla.
 - **Hosting:** El proyecto está preparado para subir a un hosting gratuito como GitHub Pages o Netlify.
 
+---
+
 ## Estructura del Proyecto
+```
 FrontEndJSadultos-1C2025/
 │
 ├── index.html
@@ -24,7 +27,9 @@ FrontEndJSadultos-1C2025/
 ├── IMG/
 ├── index.html
 └── README.md
+```
 
+---
 ## Hosting
 Proyecto disponible en linea a traves de GitHub Pages
 https://rojasjf.github.io/FrontEndJSadultos-1C2025/
