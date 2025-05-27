@@ -21,6 +21,7 @@ FrontEndJSadultos-1C2025/
 ├── contacto.html
 ├── PAGES/
 │   ├── index.html
+|   ├── mantenimiento.html
 |   └── contacto.html
 ├── CSS/
 │   └── styles.css
